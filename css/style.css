@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Prompt:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+nav,
+header .best {
+  font-family: "Open Sans";
+}
+nav .menu a,
+nav .menu i,
+header .best .menu a,
+header .best .menu i {
+  font-size: 19px;
+}
+
+header .detals-box .input .text {
+  background: url(/image/6.png) no-repeat calc(10% - 20px), #FAFAFA;
+  border-radius: 10px 0 0 10px;
+}
+header .detals-box .input .search {
+  border-radius: 0 10px 10px 0;
+}
+
+.wagstafe .nsw {
+  display: grid;
+  grid-template-columns: 265px 265px 265px 265px;
+  grid-template-rows: 248px 240px;
+  gap: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+.wagstafe .item {
+  border-radius: 15px;
+}
+.wagstafe .item1 {
+  grid-column: 1/4;
+  grid-row: 1/3;
+}
+
+.facilities .body .rest {
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.facilities .body .rest:hover {
+  -webkit-box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.05);
+}
+
+.properties .properties-right {
+  border-radius: 0 10px 10px 0;
+}
+.properties .properties-right .text-lorem {
+  font-family: "Open Sans";
+  font-style: italic;
+}
+.properties .properties-right .propert .box {
+  background: rgba(55, 113, 200, 0.28);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.properties .properties-right .propert .box:hover {
+  width: 35px;
+  background: #3771C8;
+}
+
+@media (max-width: 768px) {
+  .boxxing nav {
+    position: relative;
+    z-index: 100 !important;
+  }
+  .boxxing nav .logo {
+    width: 35%;
+    padding: 0 15px;
+  }
+  .boxxing nav .menu {
+    width: 65%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .boxxing nav .menu a {
+    display: none;
+  }
+  .boxxing header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .boxxing header .find-box {
+    width: 100%;
+    padding: 10px;
+  }
+  .boxxing header .find-box .best {
+    padding: 0;
+    font-size: 45px;
+    width: 100%;
+  }
+  .boxxing header .find-box .lorem {
+    padding: 0;
+    font-size: 18px;
+    width: 100%;
+  }
+  .boxxing header .detals-box {
+    width: 100%;
+  }
+  .boxxing header .detals-box .statick {
+    width: 100%;
+    min-height: 25vh;
+  }
+  .boxxing header .detals-box .statick .data .today {
+    width: 45%;
+    font-size: 18px;
+  }
+  .boxxing header .detals-box .statick .text {
+    width: 78%;
+    font-size: 18px;
+    padding-left: 40px;
+  }
+  .wagstafe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wagstafe .nsw {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    grid-template-columns: none;
+    padding-top: 30px;
+  }
+  .wagstafe .nsw .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wagstafe .nsw .item img {
+    width: 382px;
+    max-height: 300px;
+  }
+  .wagstafe .nsw .item1 h2 {
+    font-size: 35px;
+    text-align: center;
+    left: 0;
+  }
+  .wagstafe .nsw .item1 img {
+    min-height: 300px;
+  }
+  .facilities {
+    margin-top: 25px;
+  }
+  .facilities .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .facilities .nav .text-content {
+    width: 100%;
+    padding: 13px;
+  }
+  .facilities .nav .text-content h2 {
+    font-size: 45px;
+  }
+  .facilities .nav .text-content .ipsum {
+    font-size: 16px;
+  }
+  .facilities .nav .btn {
+    width: 100%;
+    padding: 0 15px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .facilities .body {
+    gap: 40px;
+  }
+  .Hotels {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 30px;
+    padding: 10px;
+  }
+  .Hotels .left {
+    width: 100% !important;
+    min-height: 15vh !important;
+  }
+  .Hotels .right {
+    width: 100% !important;
+    min-height: 70vh !important;
+    margin-top: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 5px;
+  }
+  .Hotels .right .h1 {
+    width: 100% !important;
+    font-size: 40px !important;
+  }
+  .Hotels .right .dolor {
+    font-size: 15px;
+  }
+  .Hotels .right .happy .clients {
+    min-height: 12vh;
+  }
+  .Hotels .right .happy .clients h1 {
+    font-size: 20px;
+  }
+  .Hotels .right .happy .clients h2 {
+    font-size: 13px;
+  }
+  .logo-branding {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+  .properties {
+    margin-top: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+  }
+  .properties .properties-left {
+    width: 100%;
+  }
+  .properties .properties-right {
+    width: 100%;
+    border-radius: 12px;
+  }
+  .properties .properties-right .text-lorem {
+    font-size: 20px;
+  }
+  .quality {
+    padding: 11px;
+  }
+  .quality .nav {
+    padding: 0;
+  }
+  .quality .nav h2 {
+    margin: 0;
+    font-size: 40px;
+  }
+  .quality .nav .sit {
+    font-size: 17px;
+    width: 100%;
+    margin: 0;
+  }
+  .quality .nav .star .star-left {
+    gap: 10px;
+  }
+  .quality .nav .star .star-left a {
+    width: 20% !important;
+    font-size: 10px;
+    min-height: 4vh !important;
+  }
+  .quality .nav .star .star-right .btn h2 {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .quality .nav .star .star-right .btn button {
+    width: 60%;
+  }
+  .quality .body {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+  .mailing {
+    width: 95%;
+    padding: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mailing .mailing-left {
+    width: 100%;
+    padding: 0;
+  }
+  .mailing .mailing-left h2 {
+    font-size: 24px;
+  }
+  .mailing .mailing-left h4 {
+    font-size: 16px;
+  }
+  .mailing .mailing-left .input {
+    width: 100%;
+  }
+  .mailing .mailing-left .input .email {
+    width: 70%;
+  }
+  .mailing .mailing-left .input .submit {
+    width: 35%;
+  }
+  .mailing .mailing-right {
+    width: 100%;
+  }
+  footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 10px;
+  }
+  footer .logos {
+    width: 100%;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 35vh;
+  }
+  footer .logos h2 {
+    text-align: center;
+    font-size: 18px;
+  }
+  footer .home {
+    width: 100%;
+    min-height: 25vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .home ul {
+    text-align: center;
+  }
+  footer .help {
+    width: 100%;
+    min-height: 40vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .help ul {
+    text-align: center;
+  }
+  footer .get-app {
+    width: 100%;
+    min-height: 10vh;
+  }
+  footer .get-app ul {
+    text-align: center;
+  }
+  footer .get-app ul .ter {
+    display: none;
+  }
+}
